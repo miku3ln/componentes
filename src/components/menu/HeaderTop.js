@@ -12,9 +12,17 @@ class HeaderTop extends Component {
                  data-search-defaultlinks-api="/search-services/suggestions/defaultlinks/">
 
                 <div className="navbar">
-                    <a href="#home">Home</a>
-                    <a href="#news">News</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#home" className='navbar__item navbar__item--apple'></a>
+                    <a href="#mac">Mac</a>
+                    <a href="#ipad">iPad</a>
+                    <a href="#iphone">iPhone</a>
+                    <a href="#watch">Watch</a>
+                    <a href="#tv">TV</a>
+                    <a href="#music">Music</a>
+                    <a href="#support">Soporte</a>
+                    <a href="#whereBuy">Dónde comprar</a>
+                    <a href="#search"></a>
+
                 </div>
             </nav>;
         return htmlInformation;
