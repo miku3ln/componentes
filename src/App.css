@@ -98,7 +98,7 @@
 }
 
 /*
-PAGE DESIGN TASK*/
+PAGE DESIGN TASK BEM http://getbem.com/*/
 .navbar__menu--apple {
     background-size: 16px 44px;
     background-repeat: no-repeat;
@@ -113,5 +113,26 @@ PAGE DESIGN TASK*/
     height: 736px;
     background-size: 1600px 736px;
     background-repeat: no-repeat;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+}
+@media screen and (min-width: 800px) {
+    .column {
+        flex: 1
+    }
+
 
 }

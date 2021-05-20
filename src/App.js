@@ -20,8 +20,8 @@ function App() {
                 params={Contants.SliderThree}
             />
 
-            <SliderTypes  params={Contants.SliderFour}/>
-            <SliderTypes  params={Contants.SliderFive}/>
+            <SliderTypes params={Contants.SliderFour}/>
+            <SliderTypes params={Contants.SliderFive}/>
 
         </div>;
     return result;
