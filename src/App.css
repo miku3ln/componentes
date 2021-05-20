@@ -99,10 +99,19 @@
 
 /*
 PAGE DESIGN TASK*/
-.navbar__item--apple {
+.navbar__menu--apple {
     background-size: 16px 44px;
     background-repeat: no-repeat;
     background-image: url('https://www.apple.com/ac/globalnav/6/es_419/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg');
     background-position: center center;
     width: 16px;
+}
+
+
+.wrapper-section-slider.wrapper-section-slider--background {
+    width: 1600px;
+    height: 736px;
+    background-size: 1600px 736px;
+    background-repeat: no-repeat;
+
 }

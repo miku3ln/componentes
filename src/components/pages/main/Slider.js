@@ -4,7 +4,7 @@ class Slider extends Component {
     render() {
 
         let htmlInformation =
-            <div className="wrapper-section-slider wrapper-section-slider--background">
+            <div className={this.props.params.classDivMain} >
                 <h1 className="wrapper-section-slider__title"
                     style={this.props.params.styles.title}> {this.props.params.title}</h1>
                 <h2 className="wrapper-section-slider__subtitle"
@@ -15,9 +15,6 @@ class Slider extends Component {
                     ''
                 }
 
-                <img className="wrapper-section-slider__img"
-                     src={this.props.params.img}
-                     alt="logo"/>
                 <div className="wrapper-section-slider--background__links">
                     <a
                         className="wrapper-section-slider__link"
